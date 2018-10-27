@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/jquery.timepicker.css">
 
     
-    <link rel="stylesheet" href="wp-content/themes/libro/css/flaticon.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/flaticon.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/icomoon.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     <?php wp_head(); ?>
