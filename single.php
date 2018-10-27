@@ -1,21 +1,4 @@
 <?php get_header(); ?>
-      <section class="ftco-fixed clearfix">
-      	<div class="image js-fullheight float-left">
-      		<div class="home-slider owl-carousel js-fullheight">
-		        <div class="slider-item js-fullheight" style="background-image: url('<?php bloginfo('template_url'); ?>/images/bg_1.jpg');">
-		          <div class="overlay"></div>
-		          <div class="container">
-		            <div class="row slider-text align-items-end" data-scrollax-parent="true">
-		              <div class="col-md-10 col-sm-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		              	<p class="breadcrumbs"><span><a href="index.html">Home</a></span> <span>Blog</span></p>
-		                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Blog Single</h1>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-		      </div>
-      	</div><!-- end:image -->
-
       	<div class="page-container float-right">
       		<div class="row">
             <div class="col-md-12">
