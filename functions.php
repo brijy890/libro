@@ -20,3 +20,6 @@ function register_my_menus() {
  }
  add_action( 'init', 'register_my_menus' );
 
+// Get customizer file
+require get_template_directory().'/inc/customizer.php';
+
