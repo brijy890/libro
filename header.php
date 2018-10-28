@@ -4,28 +4,6 @@
   <title><?php bloginfo('title'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title(); ?></title>
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
-
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/open-iconic-bootstrap.min.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/animate.css">
-
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/magnific-popup.css">
-
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/aos.css">
-
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/ionicons.min.css">
-
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap-datepicker.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/jquery.timepicker.css">
-
-
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/flaticon.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/icomoon.css">
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
