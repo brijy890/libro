@@ -19,7 +19,7 @@
           <div class="tag-widget post-tag-container mb-5 mt-5">
             <div class="tagcloud">
               <?php foreach( $post_tags as $tag ) : ?>
-                <a href="#" class="tag-cloud-link"><?php echo $tag->name; ?></a>
+                <a href="<?php echo get_tag_link($tag->term_id); ?>" class="tag-cloud-link"><?php echo $tag->name; ?></a>
               <?php endforeach; ?>
             </div>
           </div>
