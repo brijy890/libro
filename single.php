@@ -26,9 +26,9 @@
         <?php endif; ?>
 
         <div class="about-author d-flex pt-5">
-          <?php if($avatar = get_avatar(get_the_author_meta('ID')) !== FALSE): ?>
+          <?php if($avatar = get_avatar(get_the_author_meta('ID'))): ?>
             <div class="bio align-self-md-center mr-4">
-              <img src="<?php echo $avatar; ?>" alt="Image placeholder" class="img-fluid mb-4">
+              <?php echo $avatar; ?>
             </div>
             <?php else: ?>
               <div class="bio align-self-md-center mr-4">
