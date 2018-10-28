@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
   <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
 
   <nav id="colorlib-main-nav" role="navigation">
     <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
