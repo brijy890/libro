@@ -36,8 +36,8 @@
               </div>
             <?php endif; ?>
             <div class="desc align-self-md-center">
-              <h3>About The Author</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
+              <h3>About <?php the_author(); ?></h3>
+              <p><?php the_author_meta('description'); ?></p>
             </div>
           </div>
 

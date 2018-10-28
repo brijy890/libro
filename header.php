@@ -29,7 +29,7 @@
         <div class="row no-gutters">
           <div class="col-md-12">
             <div class="colorlib-navbar-brand">
-              <a class="colorlib-logo" href="<?php echo get_option('siteurl'); ?>">Libro</a>
+              <a class="colorlib-logo" href="<?php echo get_option('siteurl'); ?>"><?php bloginfo('title'); ?></a>
             </div>
             <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
           </div>

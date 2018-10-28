@@ -14,7 +14,7 @@
             <div class="text py-4">
               <div class="meta">
                 <div><a href="#"><?php the_time('F y, j g:i a'); ?></a></div>
-                <div><a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php the_author(); ?></a></div>
+                <div><a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">By <?php the_author(); ?></a></div>
               </div>
               <h3 class="heading"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
               <p><?php the_excerpt(); ?></p>
@@ -27,7 +27,7 @@
       <?php endif; ?>
     </div>
     <?php if(have_posts()) : ?>
-    <div class="row mt-5">
+<!--     <div class="row mt-5">
       <div class="col text-center">
         <div class="block-27">
           <ul>
@@ -41,7 +41,7 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> -->
     <?php endif; ?>
   </div><!-- end: page-container-->
 </section>
