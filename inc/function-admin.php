@@ -21,8 +21,14 @@ dashicons-admin-customizer', 82);
 add_action( 'admin_menu', 'libro_add_admin_page' );
 
 function libro_custom_settings() {
-	register_setting( 'libro-settings-group', 'first_name' );
+	register_setting( 'libro-settings-group', 'slider_content' );
 	add_settings_section( 'libro-slider-options', 'Slider Options', 'libro_slider_options', 'brij_libro' );
+	add_settings_field( 'libro-slider', 'Slider Content', 'libro_slider_content', 'brij_libro', 'libro-slider-options' );
+}
+
+function libro_slider_content() {
+	$sliderContent = esc_attr( get_option( 'slider_content' ) );
+	echo '<textarea name="slider_content" placeholder="Add Slider Content" rows="10" cols="50">'.$sliderContent.'</textarea>';
 }
 
 function libro_slider_options() {
